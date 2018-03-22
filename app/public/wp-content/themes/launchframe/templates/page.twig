@@ -1,14 +1,15 @@
 {% extends "base.twig" %}
 
 {% block content %}
-	<div class="content-wrapper">
-		<article class="post-type-{{post.post_type}}" id="post-{{post.ID}}">
-			<section class="article-content">
-				<h1 class="article-h1">{{post.title}}</h1>
-				<div class="article-body">
-					{{post.content}}
+	<section class="hero internal">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-8 offset-md-1">
+					<h1>{{ post.title }}</h1>
+					<h4 class="pt-md-5">Lorem ipsum dolor sit amet, sit id tamquam atomorum. Liber semper mediocrem nec at, etiam temporibus eu usu.</h4>
 				</div>
-			</section>
-		</article>
-	</div><!-- /content-wrapper -->
+			</div>
+		</div>
+		{# <div class="gradient"></div> #}
+	</section>
 {% endblock %}
