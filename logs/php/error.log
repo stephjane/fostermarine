@@ -1,0 +1,2 @@
+[20-Mar-2018 03:37:03 UTC] PHP Warning:  file_get_contents(http://test.local/wp-content/themes/launchframe/assets/dist/css/application.min.css): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /app/public/wp-content/themes/launchframe/front-page.php on line 16

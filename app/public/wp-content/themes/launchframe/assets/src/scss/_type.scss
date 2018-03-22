@@ -1,0 +1,35 @@
+// font-family: 'Source Serif Pro', serif;
+// font-family: 'Karla', sans-serif;
+// font-family: 'Assistant', sans-serif;
+
+h1,
+h2 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h3,
+h4,
+h5,
+h6,
+p {
+	font-family: 'Karla', sans-serif;
+}
+h1 {
+	font-size: 2.5rem;
+	letter-spacing: 1px;
+	@include media-breakpoint-up(md) {
+		font-size: 6.5rem;
+	}
+}
+h3 {
+	@include media-breakpoint-up(md) {
+		letter-spacing: .8px;
+		line-height: 38px;
+	}
+}
+h5 {
+	letter-spacing: .8px;
+}
+h6 {
+	text-transform: uppercase;
+}

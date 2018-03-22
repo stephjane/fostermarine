@@ -1,0 +1,39 @@
+.clearfix, .cf, .clear {
+  overflow: auto;
+}
+
+.u-abs-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    transition: .2s;
+}
+.bg {
+	&__img {
+        z-index: 0;
+        background-color: $gray;
+        background-position: center;
+        background-size: cover;
+        &--contain {
+            z-index: 0;
+            background-color: fade-out($gray, .6);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+}
+a {
+	font-family: 'Assistant', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	&:hover,
+	&:focus,
+	&:target {
+		text-decoration: none;
+	}
+}

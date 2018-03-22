@@ -1,0 +1,26 @@
+a {
+	letter-spacing: 1px;
+	&.btn {
+		padding: 10px 20px;
+		font-family: 'Nunito', sans-serif;
+		font-size: 12px;
+		border: 0;
+		border-radius: 3px;
+		letter-spacing: 1.2px;
+		transition: .2s ease;
+	}
+	&.btn-primary {
+		color: $white;
+		background-color: $brand-primary;
+	}
+	&.btn-secondary {
+		color: $white;
+		background-color: $brand-secondary;
+		opacity: .8;
+		&:hover {
+			color: $white;
+			background-color: $brand-secondary;
+			opacity: 1;
+		}
+	}
+}
